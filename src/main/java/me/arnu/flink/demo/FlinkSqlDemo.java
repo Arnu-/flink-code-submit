@@ -150,7 +150,7 @@ public class FlinkSqlDemo {
                 "  `update_time` bigint \n" +
                 ") WITH (\n" +
                 "  'connector.type' = 'jdbc',\n" +
-                "  'connector.url' = 'jdbc:mysql://localhost:3306/springbootdb',\n" +
+                "  'connector.url' = 'jdbc:mysql://192.168.174.1:3306/springbootdb?serverTimezone=UTC',\n" +
                 "  'connector.table' = 'user_fans',\n" +
                 "  'connector.driver' = 'com.mysql.jdbc.Driver',\n" +
                 "  'connector.username' = 'spring',\n" +
@@ -172,7 +172,7 @@ public class FlinkSqlDemo {
 //        DataStream<Row> dsRow = bsTableEnv.toAppendStream(table, Row.class);
 //        DataStream<Tuple2<Boolean, Row>> dsRow = bsTableEnv.toRetractStream(table, Row.class);
 //        dsRow.print();
-        bsTableEnv.execute("执行");
+//        bsTableEnv.execute("执行");
 //        bsEnv.execute("执行");
     }
 }

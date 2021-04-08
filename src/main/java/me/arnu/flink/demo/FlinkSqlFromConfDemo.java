@@ -83,7 +83,7 @@ public class FlinkSqlFromConfDemo {
 //        DataStream<Row> dsRow = bsTableEnv.toAppendStream(table, Row.class);
 //        DataStream<Tuple2<Boolean, Row>> dsRow = bsTableEnv.toRetractStream(table, Row.class);
 //        dsRow.print();
-        bsTableEnv.execute("执行");
+//        bsTableEnv.execute("执行");
 //        bsEnv.execute("执行");
     }
 }

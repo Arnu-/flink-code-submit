@@ -162,6 +162,8 @@ public class FileDataSendKafkaTest {
             String fileName = "D:\\tmp\\20210324\\scm_user_like_increase.csv";
 //            ResourceBundle kafka_rb = ResourceBundle.getBundle("kafka_scm_consumer");
             topic = "data_center-cctv_dw_flink.boss9052_test";
+//            topic = "vm-topic-1";
+
 
             /*long day20 = 0L;
             long day21 = 1L;
