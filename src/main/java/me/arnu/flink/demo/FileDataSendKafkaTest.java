@@ -167,13 +167,13 @@ public class FileDataSendKafkaTest {
 
             // 9053
 //            topic = "vm-topic-1";
-            /*long day20 = 0L;
+            long day20 = 0L;
             long day21 = 5L;
             long day22 = 0L;
             long day23 = 1490L;
             String fileName = "D:\\tmp\\20210324\\scm_object_forward_322.csv";
 //            ResourceBundle kafka_rb = ResourceBundle.getBundle("kafka_scm_consumer");
-            topic = "data_center-cctv_dw_flink.boss9053_test";*/
+            topic = "data_center-cctv_dw_flink.boss9053_test";
 
             /*long day20 = 0L;
             long day21 = 1L;
@@ -181,13 +181,13 @@ public class FileDataSendKafkaTest {
             long day23 = 160L;*/
 
             // 9054
-            long day20 = 0L;
+            /*long day20 = 0L;
             long day21 = 6L;
             long day22 = 8L;
             long day23 = 323L;
             String fileName = "D:\\tmp\\20210324\\scm_object_like_322.csv";
 //            ResourceBundle kafka_rb = ResourceBundle.getBundle("kafka_scm_consumer");
-            topic = "data_center-cctv_dw_flink.boss9054_test";
+            topic = "data_center-cctv_dw_flink.boss9054_test";*/
 
             try {
                 TextFileReader.yield(fileName
